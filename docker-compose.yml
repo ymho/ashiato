@@ -14,5 +14,5 @@ services:
     volumes:
       - ./html:/var/www/html
     environment:
-      - SERVER_NAME=calorich.net
+      - SERVER_NAME=localhost
       - DOCUMENT_ROOT=/var/www/html
